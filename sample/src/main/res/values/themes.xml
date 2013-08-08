@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/Widget.ActionBar</item>
+    </style>
+
+    <style name="AppTheme.TranslucentActionBar">
+        <item name="actionBarStyle">@style/Widget.ActionBar.Transparent</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="AppTheme.Light.TranslucentActionBar" parent="@style/Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/Widget.Light.ActionBar.Transparent</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+</resources>
