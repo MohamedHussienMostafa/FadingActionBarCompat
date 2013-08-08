@@ -1,5 +1,7 @@
+package com.manuelpeinado.fadingactionbar.compat.sample;
 /*
  * Copyright (C) 2013 Manuel Peinado
+ * Copyright (C) 2013 César Díez Sánchez
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,27 +15,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.manuelpeinado.fadingactionbar.compat.sample;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.view.Menu;
+import com.manuelpeinado.fadingactionbar.compat.FadingActionBarHelper;
 
 public class ScrollViewActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        FadingActionBarHelper helper = new FadingActionBarHelper()
-//            .actionBarBackground(R.drawable.ab_background)
-//            .headerLayout(R.layout.header)
-//            .contentLayout(R.layout.activity_scrollview);
-//        setContentView(helper.createView(this));
-//        helper.initActionBar(this);
+        FadingActionBarHelper helper = new FadingActionBarHelper()
+            .actionBarBackground(R.drawable.ab_background)
+            .headerLayout(R.layout.header)
+            .contentLayout(R.layout.activity_scrollview);
+        setContentView(helper.createView(this));
+        helper.initActionBar(this);
     }
 
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        getSupportMenuInflater().inflate(R.menu.activity_menu, menu);
-//        return true;
-//    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }
+
 }

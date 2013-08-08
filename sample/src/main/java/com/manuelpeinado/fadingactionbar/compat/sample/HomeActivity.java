@@ -1,6 +1,7 @@
 package com.manuelpeinado.fadingactionbar.compat.sample;
 /*
  * Copyright (C) 2013 Manuel Peinado
+ * Copyright (C) 2013 César Díez Sánchez
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -42,7 +43,7 @@ public class HomeActivity extends ActionBarActivity implements AdapterView.OnIte
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.home, menu);
+        getMenuInflater().inflate(R.menu.menu, menu);
         return true;
     }
 
@@ -55,7 +56,13 @@ public class HomeActivity extends ActionBarActivity implements AdapterView.OnIte
 
     private void setInitialData() {
         activitiesInfo = new ArrayList<ActivityInfo>();
-        activitiesInfo.add(new ActivityInfo(ScrollViewActivity.class, "ScrollView sample"));
+        activitiesInfo.add(new ActivityInfo(ScrollViewActivity.class, getString(R.string.activity_title_scrollview)));
+        activitiesInfo.add(new ActivityInfo(ListViewActivity.class, getString(R.string.activity_title_listview)));
+        activitiesInfo.add(new ActivityInfo(LightBackgroundActivity.class, getString(R.string.activity_title_light_bg)));
+        activitiesInfo.add(new ActivityInfo(LightActionBarActivity.class, getString(R.string.activity_title_light_ab)));
+        activitiesInfo.add(new ActivityInfo(SampleFragmentActivity.class, getString(R.string.activity_title_fragment)));
+        activitiesInfo.add(new ActivityInfo(NoParallaxActivity.class, getString(R.string.activity_title_no_parallax)));
+        activitiesInfo.add(new ActivityInfo(NavigationDrawerActivity.class, getString(R.string.activity_title_navigation)));
     }
 
     private void setViews() {
