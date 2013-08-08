@@ -4,7 +4,7 @@ FadingActionBar is a library which implements the cool fading action bar effect 
 
 This library uses the techniques outlined by Cyril Mottier in [a recent blog post][1].
 
-For reasons of backwards compatibility this library relies on ActionBarSherlock. If your app uses the native action bar, there is [a fork][2] for you.
+For reasons of backwards compatibility this library relies on ActionBarCompat. If your app uses [Sherlock][12] or the [native action bar][2], there are forks for you :)
 
 ![Example Image][3]
 
@@ -102,5 +102,6 @@ License
  [9]: https://github.com/ManuelPeinado
  [10]: https://play.google.com/store/apps/details?id=com.yavorivanov.android.danswithme
  [11]: https://github.com/m3n0R/FadingActionBarCompat/tree/master/contrib
+ [12]: https://raw.github.com/ManuelPeinado/FadingActionBar
 
 
