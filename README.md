@@ -1,6 +1,5 @@
-FadingActionBar
+FadingActionBarCompat
 ==================
-
 FadingActionBar is a library which implements the cool fading action bar effect that can be seen in the new Play Music app.
 
 This library uses the techniques outlined by Cyril Mottier in [a recent blog post][1].
@@ -11,32 +10,22 @@ For reasons of backwards compatibility this library relies on ActionBarSherlock.
 
 Try out the sample application:
 
-<a href="https://play.google.com/store/apps/details?id=com.manuelpeinado.fadingactionbar.demo">
-  <img alt="Android app on Google Play"
-       src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
-</a>
+Will be available soon...
 
 Or browse the [source code of the sample application][4] for a complete example of use.
 
 Including in your project
 -------------------------
+Just add the library to your application as a library project. And don't forget that your project must use ActionBarCompat!
 
-Just add the library to your application as a library project. And don't forget that your project must use ActionBarSherlock!
+Or if you use Gradle, just open your project with Android Studio or via console:
 
-Or if you use maven, add the following dependency to your pom:
-
-```xml
-<dependency>
-    <groupId>com.github.manuelpeinado.fadingactionbar</groupId>
-    <artifactId>fadingactionbar</artifactId>
-    <version>2.2.2</version>
-    <type>apklib</type>
-</dependency>
+```
+$./gradlew clean installDebug (it will install the debug apk in your device)
 ```
 
 Usage
 -----
-
 Using the library is really simple, just look at the source code of the provided samples:
 
 * [If your content should be in a `ScrollView`][5].
@@ -50,41 +39,39 @@ You can even use the library [from a fragment][7], which is useful when implemen
 
 Acknowledgements
 --------------------
-
 * Thanks to [Cyril Mottier][8] for sharing the techniques that make this library possible.
 * Thanks to [Antonio Leiva][9] for writing the Navigation Drawer sample.
-
+* Thanks to [Manuel Peinado] [11] for writing the FadingActionBar based on Sherlock compatibility (almost all the hard work)
 
 Who's using it
 --------------
+*Does your app use FadingActionBarCompat? If you want to be featured on this list drop me a line.*
 
-* [#ДАНСwithme][10]. This app attempts to organise information from various social network streams into a single source.
 
-*Does your app use FadingActionBar? If you want to be featured on this list drop me a line.*
+Known Bugs
+--------------
+* There is a little bug related to NavigationDrawer Activity. On configuration change, the ActionBar returns null and it can't apply background... working on it!
 
 
 Developed By
 --------------------
 
-Manuel Peinado Gallego - <manuel.peinado@gmail.com>
+César Díez Sánchez - <cesaryomismo@gmail.com>
 
-<a href="https://twitter.com/mpg2">
-  <img alt="Follow me on Twitter"
-       src="https://raw.github.com/ManuelPeinado/NumericPageIndicator/master/art/twitter.png" />
+<a href="https://twitter.com/menorking">
+  <img alt="Follow me on Twitter" src="https://raw.github.com/ManuelPeinado/NumericPageIndicator/master/art/twitter.png" />
 </a>
-<a href="https://plus.google.com/106514622630861903655">
-  <img alt="Follow me on Google+"
-       src="https://raw.github.com/ManuelPeinado/NumericPageIndicator/master/art/google-plus.png" />
+<a href="https://plus.google.com/115273462230054581675">
+  <img alt="Follow me on Google+" src="https://raw.github.com/ManuelPeinado/NumericPageIndicator/master/art/google-plus.png" />
 </a>
-<a href="http://www.linkedin.com/pub/manuel-peinado-gallego/1b/435/685">
-  <img alt="Follow me on LinkedIn"
-       src="https://raw.github.com/ManuelPeinado/NumericPageIndicator/master/art/linkedin.png" />
+<a href="http://lnkd.in/cc4YKZ">
+  <img alt="Follow me on LinkedIn" src="https://raw.github.com/ManuelPeinado/NumericPageIndicator/master/art/linkedin.png" />
 
 
 License
 -----------
 
-    Copyright 2013 Manuel Peinado
+    Copyright 2013 César Díez Sánchez
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -104,12 +91,13 @@ License
  [1]: http://cyrilmottier.com/2013/05/24/pushing-the-actionbar-to-the-next-level/
  [2]: https://raw.github.com/ManuelPeinado/FadingActionBar-Native
  [3]: https://raw.github.com/ManuelPeinado/FadingActionBar/master/art/readme_pic.png
- [4]: https://github.com/ManuelPeinado/FadingActionBar/tree/master/sample
- [5]: https://github.com/ManuelPeinado/FadingActionBar/blob/master/sample/src/com/manuelpeinado/fadingactionbar/demo/ScrollViewActivity.java
- [6]: https://github.com/ManuelPeinado/FadingActionBar/blob/master/sample/src/com/manuelpeinado/fadingactionbar/demo/ListViewActivity.java
- [7]: https://github.com/ManuelPeinado/FadingActionBar/blob/master/sample/src/com/manuelpeinado/fadingactionbar/demo/SampleFragment.java
+ [4]: https://github.com/m3n0R/FadingActionBarCompat/tree/master/sample
+ [5]: https://github.com/m3n0R/FadingActionBarCompat/blob/master/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/ScrollViewActivity.java
+ [6]: https://github.com/m3n0R/FadingActionBarCompat/blob/master/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/ListViewActivity.java
+ [7]: https://github.com/m3n0R/FadingActionBarCompat/blob/master/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/SampleFragment.java
  [8]: http://cyrilmottier.com
  [9]: https://github.com/antoniolg
- [10]: https://play.google.com/store/apps/details?id=com.yavorivanov.android.danswithme 
+ [10]: https://play.google.com/store/apps/details?id=com.yavorivanov.android.danswithme
+ [11]: https://github.com/ManuelPeinado
 
 

@@ -20,6 +20,7 @@ package com.manuelpeinado.fadingactionbar.compat.sample;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
@@ -30,13 +31,12 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import com.antonioleiva.navigationdrawercompat.ActionBarDrawerToggleCompat;
 
 public class NavigationDrawerActivity extends ActionBarActivity implements AdapterView.OnItemClickListener {
 
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
-    private ActionBarDrawerToggleCompat mDrawerToggle;
+    private ActionBarDrawerToggle mDrawerToggle;
 
     private CharSequence mDrawerTitle;
     private CharSequence mTitle;
@@ -71,7 +71,7 @@ public class NavigationDrawerActivity extends ActionBarActivity implements Adapt
 
         // ActionBarDrawerToggle ties together the the proper interactions
         // between the sliding drawer and the action bar app icon
-        mDrawerToggle = new ActionBarDrawerToggleCompat(
+        mDrawerToggle = new ActionBarDrawerToggle(
             this,                  /* host Activity */
             mDrawerLayout,         /* DrawerLayout object */
             R.drawable.ic_drawer,  /* nav drawer image to replace 'Up' caret */
