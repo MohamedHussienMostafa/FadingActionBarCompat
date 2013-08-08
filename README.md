@@ -16,9 +16,15 @@ Or browse the [source code of the sample application][4] for a complete example 
 
 Including in your project
 -------------------------
-Just add the library to your application as a library project. And don't forget that your project must use ActionBarCompat!
+Add library to your application project. Here are the dependencies (Don't forget using ActionBarCompat, located in [contrib][11] dir):
 
-Or if you use Gradle, just open your project with Android Studio or via console:
+* library
+    --> libs/support-v4-18
+    --> contrib/appcompat (include this project too)
+* sample
+    --> library
+
+Or if you use Gradle, just open your project with Android Studio or via console (in your project root):
 
 ```
 $./gradlew clean installDebug (it will install the debug apk in your device)
@@ -40,8 +46,7 @@ You can even use the library [from a fragment][7], which is useful when implemen
 Acknowledgements
 --------------------
 * Thanks to [Cyril Mottier][8] for sharing the techniques that make this library possible.
-* Thanks to [Antonio Leiva][9] for writing the Navigation Drawer sample.
-* Thanks to [Manuel Peinado] [11] for writing the FadingActionBar based on Sherlock compatibility (almost all the hard work)
+* Thanks to [Manuel Peinado] [9] for writing the FadingActionBar based on Sherlock compatibility (almost all the hard work)
 
 Who's using it
 --------------
@@ -86,8 +91,6 @@ License
     limitations under the License.
 
 
-
-
  [1]: http://cyrilmottier.com/2013/05/24/pushing-the-actionbar-to-the-next-level/
  [2]: https://raw.github.com/ManuelPeinado/FadingActionBar-Native
  [3]: https://raw.github.com/ManuelPeinado/FadingActionBar/master/art/readme_pic.png
@@ -96,8 +99,8 @@ License
  [6]: https://github.com/m3n0R/FadingActionBarCompat/blob/master/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/ListViewActivity.java
  [7]: https://github.com/m3n0R/FadingActionBarCompat/blob/master/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/SampleFragment.java
  [8]: http://cyrilmottier.com
- [9]: https://github.com/antoniolg
+ [9]: https://github.com/ManuelPeinado
  [10]: https://play.google.com/store/apps/details?id=com.yavorivanov.android.danswithme
- [11]: https://github.com/ManuelPeinado
+ [11]: https://github.com/m3n0R/FadingActionBarCompat/tree/master/contrib
 
 
