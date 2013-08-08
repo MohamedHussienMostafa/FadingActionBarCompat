@@ -76,7 +76,28 @@
     <favorites_list name="library" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="FadingActionBarHelper.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/library/src/main/java/com/manuelpeinado/fadingactionbar/compat/FadingActionBarHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="5" selection-start="2404" selection-end="2404" vertical-scroll-proportion="0.09656652" vertical-offset="600" max-vertical-offset="4425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NavigationDrawerActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/NavigationDrawerActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="47" selection-start="1814" selection-end="1814" vertical-scroll-proportion="-10.72" vertical-offset="452" max-vertical-offset="2220">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -126,8 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sample/src/main/res/layout/activity_fragment.xml" />
-        <option value="$PROJECT_DIR$/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/SampleFragmentActivity.java" />
         <option value="$PROJECT_DIR$/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/LightActionBarActivity.java" />
         <option value="$PROJECT_DIR$/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/LightBackgroundActivity.java" />
         <option value="$PROJECT_DIR$/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/ListViewActivity.java" />
@@ -137,10 +156,12 @@
         <option value="$PROJECT_DIR$/sample/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/sample/src/main/res/layout/activity_navigation_drawer.xml" />
         <option value="$PROJECT_DIR$/sample/src/main/res/layout/drawer_list_item.xml" />
-        <option value="$PROJECT_DIR$/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/NavigationDrawerActivity.java" />
         <option value="$PROJECT_DIR$/sample/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/HomeActivity.java" />
         <option value="$PROJECT_DIR$/sample/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/sample/src/main/java/com/antonioleiva/navigationdrawercompat/ActionBarDrawerToggleCompat.java" />
+        <option value="$PROJECT_DIR$/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/NavigationDrawerActivity.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/manuelpeinado/fadingactionbar/compat/FadingActionBarHelper.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -181,6 +202,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,10 +222,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fading ActionBarCompat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FadingActionBarCompat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fading ActionBarCompat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FadingActionBarCompat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,11 +272,11 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -381,23 +434,23 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19827586" sideWeight="0.6701847" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19827586" sideWeight="0.9973615" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0026385225" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27044854" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4656992" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53562003" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23457676" sideWeight="0.6701847" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21377331" sideWeight="0.6701847" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -466,30 +519,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/LightActionBarActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1304" selection-end="1304" vertical-scroll-proportion="0.56367433" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/LightBackgroundActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="80" selection-end="80" vertical-scroll-proportion="0.06263048" vertical-offset="0" max-vertical-offset="705">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/ListViewActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="2" selection-start="321" selection-end="321" vertical-scroll-proportion="0.25052193" vertical-offset="0" max-vertical-offset="1065">
-          <folding>
-            <element signature="e#1768#1776#0" expanded="true" />
-            <element signature="e#2233#2241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/NoParallaxActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="701" selection-end="701" vertical-scroll-proportion="0.53235906" vertical-offset="0" max-vertical-offset="705">
@@ -549,16 +578,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/main/res/layout/activity_navigation_drawer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="38" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.5232558" vertical-offset="0" max-vertical-offset="688">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="4567" selection-end="4567" vertical-scroll-proportion="0.32188842" vertical-offset="0" max-vertical-offset="466">
@@ -575,15 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/NavigationDrawerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="128" selection-end="128" vertical-scroll-proportion="-3.1753654" vertical-offset="1581" max-vertical-offset="2310">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="35" selection-start="2382" selection-end="2382" vertical-scroll-proportion="1.7536534" vertical-offset="0" max-vertical-offset="1155">
@@ -593,9 +603,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/antonioleiva/navigationdrawercompat/ActionBarDrawerToggleCompat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="26" selection-start="766" selection-end="766" vertical-scroll-proportion="0.37037036" vertical-offset="0" max-vertical-offset="6870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/library/build/exploded-bundles/ComAndroidSupportAppcompatV71800.aar/classes.jar!/android/support/v7/app/ActionBarActivity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="64" selection-start="4262" selection-end="4262" vertical-scroll-proportion="0.7279793" vertical-offset="1009" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/main/res/layout/activity_navigation_drawer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="67" selection-start="518" selection-end="518" vertical-scroll-proportion="0.17492712" vertical-offset="0" max-vertical-offset="686">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.71816283" vertical-offset="76" max-vertical-offset="615">
+        <state line="20" column="23" selection-start="244" selection-end="244" vertical-scroll-proportion="0.25722146" vertical-offset="113" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/manuelpeinado/fadingactionbar/compat/sample/NavigationDrawerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="47" selection-start="1814" selection-end="1814" vertical-scroll-proportion="-10.72" vertical-offset="452" max-vertical-offset="2220">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/main/java/com/manuelpeinado/fadingactionbar/compat/FadingActionBarHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="5" selection-start="2404" selection-end="2404" vertical-scroll-proportion="0.09656652" vertical-offset="600" max-vertical-offset="4425">
           <folding />
         </state>
       </provider>
